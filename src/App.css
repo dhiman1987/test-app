@@ -1,0 +1,29 @@
+
+h1, h2 {
+    color: #545454;
+}
+
+.container{
+margin:auto;
+padding:1rem;
+text-align: center;
+background-color: #fdfdfd;
+border-radius: 0.5rem;
+border: 1px solid #d6d6d6;
+}
+
+button {
+  padding: 0.75rem;
+  margin: 0.5rem;
+  color: #dcdcdc;
+  font-weight: 500;
+  font-size: 1.1rem;
+  background-color: #545454;
+  border: 1px solid #6f6e6e;
+  border-radius: 0.5rem;
+}
+
+button:hover {
+  background-color: #6f6e6e;
+  color: #fff;
+}
