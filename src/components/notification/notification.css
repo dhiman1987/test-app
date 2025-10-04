@@ -1,0 +1,22 @@
+ul.notification-list {
+  list-style: none; /* removes the dots */
+  padding: 0;
+  margin: 0;
+  width: 50%;
+}
+
+ul.notification-list li {
+  padding: 12px 16px;
+  margin-bottom: 0.1rem;
+  color: #545454;
+  transition: background-color 0.3s ease;
+  text-align: left;
+  background-color: #f0f0f0;
+  border-radius: 0.5rem;
+  border: 1px solid #d6d6d6;
+}
+
+ul.notification-list li:hover {
+  border: 1px solid #6f6e6e;
+  background-color: #cccccc;
+}

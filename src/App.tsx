@@ -1,13 +1,19 @@
 
 import './App.css'
 import Counter from './components/counter/Counter'
+import Header from './components/header/Header'
+import Notification from './components/notification/Notification'
 
 function App() {
-  return (      
-      <div className="container">
-        <h1>Test App</h1>
+  return ( 
+    <>
+    <Header></Header>
+    <div className="container">
         <Counter></Counter>
+        <Notification></Notification>
       </div>
+    </>     
+
   )
 }
 

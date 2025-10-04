@@ -4,7 +4,7 @@ h1, h2 {
 }
 
 .container{
-margin:auto;
+margin:0.5rem;
 padding:1rem;
 text-align: center;
 background-color: #fdfdfd;
@@ -21,6 +21,15 @@ button {
   background-color: #545454;
   border: 1px solid #6f6e6e;
   border-radius: 0.5rem;
+}
+
+input {
+  padding: 0.75rem;
+  margin: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #6f6e6e;
+  border-radius: 0.5rem;
+  background-color: #f0f0f0;
 }
 
 button:hover {

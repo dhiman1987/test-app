@@ -3,7 +3,7 @@ import './Counter.css'
 
 const DEFAULT_MESSAGE = "Change counter from 0 to 10"
 
-function Counter() {
+const Counter = () => {
   const [count, setCount] = useState(0)
   const [message, setMessage] = useState(DEFAULT_MESSAGE);
 
